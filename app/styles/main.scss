@@ -44,6 +44,19 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 //     width: 200px;
 // }
 
+.dotted {
+        border: 2px dotted #d5cdcd; 
+        border-style: none none dotted; 
+        color: #fff; 
+        background-color: #fff; 
+
+}
+
+h6 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    padding: 10px, auto, 20px, auto;
+}
 
 .browsehappy {
     margin: 0.2em 0;
@@ -71,7 +84,7 @@ body {
 /* Custom page header */
 .header {
     border-bottom: 1px solid #e5e5e5;
-    background-image: creekside-chs-sc.jpg;
+    background-image: "/images/creekside-chs-sc.jpg";
     background-repeat: none;
 
     /* Make the masthead heading the same height as the navigation */
