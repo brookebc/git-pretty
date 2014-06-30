@@ -44,6 +44,27 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 //     width: 200px;
 // }
 
+.green-button {
+    color: #58ad52;
+}
+
+.teal-button {
+    color: #2da4af;
+}
+
+.rotate {
+/* Safari */
+-webkit-transform: rotate(-90deg);
+/* Firefox */
+-moz-transform: rotate(-90deg);
+/* IE */
+-ms-transform: rotate(-90deg);
+/* Opera */
+-o-transform: rotate(-90deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 .dotted {
         border: 2px dotted #d5cdcd; 
         border-style: none none dotted; 
